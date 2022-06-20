@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -123,4 +124,131 @@ main {
     .right__section {
         padding: 0;
     }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+}
+
+main {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('images/bg-intro-desktop.png');
+    max-width: 960px;
+    margin: 4rem auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: .25rem;
+    color: #fff;
+}
+
+.left__section {
+    padding: 4rem; 
+    padding-top: 10rem;
+}
+
+.left__section h1 {
+    line-height: 1.2;
+    padding-bottom: 1rem;
+}
+
+.left__section p {
+    font-size: .6rem;
+}
+
+.right__section {
+    padding: 3.5rem;
+}
+
+.rs-header-text {
+    background-color: hsl(248, 32%, 49%);
+    font-size: .6rem;
+    text-align: center;
+    border-radius: .25rem;
+    padding: .5rem;
+    box-shadow: 2px solid grey;
+    color: hsl(246, 25%, 77%);
+}
+
+.bold-white {
+    color: #fff;
+    font-weight: 500;
+}
+
+.rs-form {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
+
+.form input {
+    width: 100%;
+    border: 1px solid hsl(246, 88%, 94%);
+    padding: .5rem;
+    margin-bottom: .8rem;
+    padding-left: 1rem;
+    border-radius: .25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+}
+
+.form input::placeholder {
+    color: hsl(246, 25%, 77%);
+}
+
+.submit-btn {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: hsl(154, 76%, 61%);
+}
+
+.form-info {
+    color: hsl(246, 25%, 77%);
+    font-size: .4rem;
+    text-align: center;
+}
+
+.red-text {
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+
+@media (max-width: 970px) {
+    main {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        background-image: url('images/bg-intro-mobile.png');
+        display: grid;
+        text-align: center;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 2fr;
+        margin: 0;
+        max-width: 100%;
+        padding: 8rem 1rem;
+        border-radius: 0px;
+    }
+
+    .left__section {
+        padding: 3rem .5rem;
+    }
+
+    .right__section {
+        padding: 0;
+    }
+>>>>>>> 7a2fd17ad87aa780862da03d892924e84b35bc61
 }
